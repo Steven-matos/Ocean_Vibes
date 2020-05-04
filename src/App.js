@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 // components
 import Home from "./component/Home.js";
-import About from "./component/About.js";
+import Contact from "./component/Contact.js";
 import Service from "./component/Service.js";
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
               <Link to="/services">Services</Link>
             </li>
             <li>
-              <Link to="/about">Contact</Link>
+              <Link to="/contact-us">Contact Us</Link>
             </li>
           </ul>
         </nav>
@@ -33,8 +33,8 @@ export default function App() {
           <Route path="/services">
             <Service />
           </Route>
-          <Route path="/about">
-            <About />
+          <Route path="/contact-us">
+            <Contact />
           </Route>
           Î
           <Route path="/">
