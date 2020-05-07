@@ -6,13 +6,20 @@ import { Button, Icon } from "@material-ui/core";
 const Home = () => {
   return (
     <div>
-      <div>
-        <Nav />
-        <h1>Ocean Vibes Aquarium LLC</h1>
+      <Nav />
+      <div className="header">
+        <h1>Ocean Vibes Aquarium</h1>
+        <div className="contactBtn">
+          <Button
+            variant="contained"
+            color="primary"
+            endIcon={<Icon>call</Icon>}
+            href="tel:+14075564715"
+          >
+            Call Us
+          </Button>
+        </div>
       </div>
-      <Button variant="contained" color="primary" endIcon={<Icon>call</Icon>}>
-        Call Us
-      </Button>
     </div>
   );
 };
