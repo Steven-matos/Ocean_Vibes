@@ -1,6 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+//Normalized CSS
+import "./styles/normalize.css";
+
+//Main Styles
+import "./styles/main.css";
+
 // components
 import Home from "./component/Home.js";
 import Contact from "./component/Contact.js";
