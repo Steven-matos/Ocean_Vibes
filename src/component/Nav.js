@@ -1,13 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import logo from "../assets/logo/OVA_logo_transparent.png";
+
 const Nav = () => {
   return (
-    <nav>
+    <nav className="navBar">
       <div>
-        <img alt="Ocean Vibes Aquariums logo" />
+        <Link to="/">
+          <img className="logo" src={logo} alt="Logo" height="80" width="80" />
+        </Link>
       </div>
-      <ul>
+      <ul className="navLinks">
         <li>
           <Link to="/">Home</Link>
         </li>
