@@ -1,20 +1,38 @@
 .header {
   background: url("../assets/layout-img/underwater.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-size: cover;
+  background-position-y: 45%;
   height: 100%;
   h1 {
-      letter-spacing: 2px;
-      font-size: 3rem;
-      text-align: center;
-      margin: 0;
-      padding-top: 5rem;
-      color: white;
-      text-shadow: 2px 2px black;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 5rem;
+    color: white;
+    text-shadow: 2px 2px black;
   }
   .contactBtn {
-      padding: 2rem;
-      text-align: center;
+    padding: 2rem 0 3rem 0;
+    text-align: center;
   }
+}
+
+h2 {
+  padding: 2rem;
+  color: @MainFont;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }

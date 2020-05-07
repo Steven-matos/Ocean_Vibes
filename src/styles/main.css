@@ -25,8 +25,8 @@ li a:hover {
 .header {
   background: url("../assets/layout-img/underwater.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-size: cover;
+  background-position-y: 45%;
   height: 100%;
 }
 .header h1 {
@@ -39,8 +39,23 @@ li a:hover {
   text-shadow: 2px 2px black;
 }
 .header .contactBtn {
-  padding: 2rem;
+  padding: 2rem 0 3rem 0;
   text-align: center;
+}
+h2 {
+  padding: 2rem;
+  color: #02385e;
+  font-size: 2rem;
+  text-align: center;
+}
+.intro {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 @font-face {
   font-family: 'Montserrat';
@@ -64,5 +79,5 @@ li a:hover {
   src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf) format('truetype');
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
