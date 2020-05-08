@@ -1,0 +1,83 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+.navLinks {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.logo {
+  padding: 0.5rem 1.6rem;
+}
+li {
+  padding: 1.2rem 2rem 0 2rem;
+  list-style: none;
+}
+li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+}
+li a:hover {
+  color: #02385e;
+}
+.header {
+  background: url("../assets/layout-img/underwater.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 45%;
+  height: 100%;
+}
+.header h1 {
+  letter-spacing: 2px;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+  padding-top: 5rem;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.header .contactBtn {
+  padding: 2rem 0 3rem 0;
+  text-align: center;
+}
+h2 {
+  padding: 2rem;
+  color: #02385e;
+  font-size: 2rem;
+  text-align: center;
+}
+.intro {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf) format('truetype');
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
