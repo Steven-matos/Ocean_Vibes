@@ -15,12 +15,17 @@
 .contact-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
   img {
     margin: 5rem;
     border-radius: 5px;
     -webkit-box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
+    @media screen and (max-width: 500px) {
+      margin: 0 0 2rem 0;
+      width: 80%;
+    }
   }
 }
 
