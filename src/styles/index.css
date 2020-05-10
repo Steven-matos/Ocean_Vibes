@@ -22,12 +22,16 @@ li a {
 li a:hover {
   color: #02385e;
 }
+.home-container {
+  margin-bottom: 3.5rem;
+}
 .header {
   background: url("../assets/layout-img/underwater.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 45%;
   height: 100%;
+  padding: 5rem;
 }
 .header h1 {
   letter-spacing: 2px;
@@ -36,11 +40,22 @@ li a:hover {
   margin: 0;
   padding-top: 5rem;
   color: #99daff;
+  text-decoration: none;
   text-shadow: 2px 2px black;
+}
+@media screen and (max-width: 500px) {
+  .header h1 {
+    padding-top: 0rem;
+  }
 }
 .header .contactBtn {
   padding: 2rem 0 3rem 0;
   text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .header .contactBtn {
+    padding: 1rem 0;
+  }
 }
 h2 {
   padding: 2rem;
@@ -67,6 +82,11 @@ h2 {
   -moz-box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
 }
+@media screen and (max-width: 500px) {
+  .card-shadow {
+    margin-bottom: 1.5rem;
+  }
+}
 .service-header {
   background: url("../assets/layout-img/watertank.jpg");
   background-repeat: no-repeat;
@@ -82,6 +102,12 @@ h1 {
   color: #02385e;
   text-decoration: underline;
 }
+@media screen and (max-width: 800px) {
+  h1 {
+    text-align: center;
+    margin: 0;
+  }
+}
 .services-container {
   padding: 2.6rem;
 }
@@ -90,11 +116,32 @@ h1 {
   justify-content: space-evenly;
   align-content: center;
 }
+@media screen and (max-width: 800px) {
+  .service-content {
+    flex-wrap: wrap;
+  }
+}
 .content-container {
   padding: 2.54rem;
 }
+@media screen and (max-width: 800px) {
+  .content-container {
+    padding: 0;
+    margin: 3rem;
+  }
+}
 .content-container p {
   font-size: 1.2rem;
+}
+@media screen and (max-width: 800px) {
+  .content-container p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content-container {
+    padding: 0;
+  }
 }
 .corner-img {
   width: 30%;
@@ -104,11 +151,171 @@ h1 {
   -moz-box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
 }
+@media screen and (max-width: 500px) {
+  .corner-img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .corner-img {
+    width: 90%;
+  }
+}
 .service-list li {
   list-style: disc;
 }
+@media screen and (max-width: 800px) {
+  h3 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .service-btn {
+    margin-left: 9.9rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .service-btn {
+    margin-left: 1rem;
+  }
+}
 .service-btn a {
   margin: 0.5rem;
+}
+@media screen and (max-width: 500px) {
+  .service-btn a {
+    margin: 0.22rem;
+  }
+}
+.contact-header {
+  background: url("../assets/layout-img/blue_fish.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 58%;
+  height: 100%;
+  padding: 6.2rem;
+}
+.contact-h1 {
+  text-decoration: none;
+  margin: 1rem 0 0 0;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+}
+.contact-container img {
+  margin: 5rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
+}
+@media screen and (max-width: 500px) {
+  .contact-container img {
+    margin: 0 0 2rem 0;
+    width: 80%;
+  }
+}
+.contact-content {
+  margin: 2rem;
+  padding: 1.5rem;
+}
+.contact-content h2 {
+  padding: 0;
+  text-align: left;
+}
+.contact-content p {
+  font-size: 1.2rem;
+}
+.contact-content ul {
+  padding: 0;
+  margin: 0;
+}
+.contact-content ul li {
+  font-size: 1.2rem;
+}
+.contact-content ul li a {
+  font-size: 1.2rem;
+}
+span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.footer-container {
+  text-align: center;
+}
+.footer-contact {
+  background-color: #02385e;
+  color: white;
+  padding: 3.5rem;
+}
+.footer-contact p {
+  margin: 0 8rem;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 500px) {
+  .footer-contact p {
+    margin: 0 auto;
+    font-size: 0.9rem;
+  }
+}
+.footer-contact p a {
+  color: white;
+  text-decoration: none;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+@media screen and (max-width: 500px) {
+  .footer-nav {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+.footer-nav img {
+  margin-top: 0.5rem;
+  width: 20%;
+}
+@media screen and (max-width: 500px) {
+  .footer-nav img {
+    width: 45%;
+    margin: 0 auto -50px auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer-nav img {
+    width: 30%;
+  }
+}
+.footer-nav div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+@media screen and (max-width: 500px) {
+  .footer-nav div {
+    margin: 0;
+  }
+}
+.footerLinks {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+@media screen and (max-width: 500px) {
+  .footerLinks {
+    padding: 0;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footerLinks li {
+    padding: 1.2rem 0 0 2.5rem;
+  }
 }
 @font-face {
   font-family: 'Montserrat';
