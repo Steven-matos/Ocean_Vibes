@@ -298,7 +298,8 @@ span {
 }
 @media screen and (max-width: 820px) {
   .footer-nav img {
-    width: 30%;
+    width: 15%;
+    height: 30vh;
   }
 }
 .footer-nav div {
