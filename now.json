@@ -1,9 +1,9 @@
 {
     "routes": [
         {
-            "src": "/media/.(jpg)",
+            "src": "/media/(.*)",
             "headers": {
-                "cache-control": "max-age=2592000"
+                "cache-control": "max-age=2592000, public"
             }
         }
     ]
