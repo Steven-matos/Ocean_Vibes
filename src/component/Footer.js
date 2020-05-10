@@ -47,7 +47,7 @@ const Footer = () => {
           </ul>
           <p>
             <CopyrightIcon />
-            {"  "}2020 Ocean Vibes Aquarium LLC
+            {"  "}2020 Ocean Vibes Aquarium LLC, Designed by Steven M.
           </p>
         </div>
       </div>
