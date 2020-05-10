@@ -1,0 +1,25 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "headers": {
+                "cache-control": "max-age=2592000"
+            },
+            "dest": "/"
+        },
+        {
+            "src": "/services",
+            "headers": {
+                "cache-control": "max-age=2592000"
+            },
+            "dest": "/services"
+        },
+        {
+            "src": "/contact-us",
+            "headers": {
+                "cache-control": "max-age=2592000"
+            },
+            "dest": "/contact-us"
+        }
+    ]
+}
