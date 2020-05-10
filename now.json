@@ -1,19 +1,7 @@
 {
     "routes": [
         {
-            "src": "/media/underwater.1e5f6ec4.jpg",
-            "headers": {
-                "cache-control": "max-age=2592000"
-            }
-        },
-        {
-            "src": "/services",
-            "headers": {
-                "cache-control": "max-age=2592000"
-            }
-        },
-        {
-            "src": "/contact-us",
+            "src": "/media/.(jpg)",
             "headers": {
                 "cache-control": "max-age=2592000"
             }
