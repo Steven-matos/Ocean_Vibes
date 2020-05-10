@@ -158,8 +158,8 @@ h1 {
 }
 @media screen and (max-width: 500px) {
   .corner-img {
-    width: 35%;
-    height: 25vh;
+    width: 30%;
+    height: 10vh;
   }
 }
 @media screen and (max-width: 820px) {
@@ -292,8 +292,8 @@ span {
 }
 @media screen and (max-width: 500px) {
   .footer-nav img {
-    width: 60%;
-    height: 25vh;
+    width: 30%;
+    height: 10vh;
     margin: 0 auto -50px auto;
   }
 }
