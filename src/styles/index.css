@@ -159,7 +159,7 @@ h1 {
 @media screen and (max-width: 500px) {
   .corner-img {
     width: 35%;
-    height: 50vh;
+    height: 25vh;
   }
 }
 @media screen and (max-width: 820px) {
