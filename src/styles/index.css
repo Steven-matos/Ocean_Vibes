@@ -31,6 +31,7 @@ li a:hover {
   background-size: cover;
   background-position-y: 45%;
   height: 100%;
+  padding: 5rem;
 }
 .header h1 {
   letter-spacing: 2px;
@@ -174,6 +175,12 @@ span {
   margin: 0 8rem;
   font-size: 1.2rem;
 }
+@media screen and (max-width: 500px) {
+  .footer-contact p {
+    margin: 0 auto;
+    font-size: 0.9rem;
+  }
+}
 .footer-contact p a {
   color: white;
   text-decoration: none;
@@ -183,9 +190,21 @@ span {
   justify-content: space-evenly;
   align-content: center;
 }
+@media screen and (max-width: 500px) {
+  .footer-nav {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
 .footer-nav img {
   margin-top: 0.5rem;
   width: 20%;
+}
+@media screen and (max-width: 500px) {
+  .footer-nav img {
+    width: 55%;
+    margin: 0 auto;
+  }
 }
 .footer-nav div {
   display: flex;
@@ -193,10 +212,21 @@ span {
   justify-content: space-between;
   margin: 2rem 0;
 }
+@media screen and (max-width: 500px) {
+  .footer-nav div {
+    margin: 0;
+  }
+}
 .footerLinks {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
+}
+@media screen and (max-width: 500px) {
+  .footerLinks {
+    flex-direction: column;
+    padding: 0;
+  }
 }
 @font-face {
   font-family: 'Montserrat';
