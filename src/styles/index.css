@@ -292,7 +292,7 @@ span {
 }
 @media screen and (max-width: 500px) {
   .footer-nav img {
-    width: 45%;
+    width: 60%;
     margin: 0 auto -50px auto;
   }
 }
