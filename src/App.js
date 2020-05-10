@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nav from "./component/Nav.js";
 import Footer from "./component/Footer.js";
+import ScrollToTop from "./component/ScrollToTop.js";
 
 //Normalized CSS
 import "./styles/normalize.css";
@@ -19,6 +20,7 @@ export default function App() {
     <Router>
       <Nav />
       <div>
+        <ScrollToTop />
         <Switch>
           <Route path="/services">
             <Service />
