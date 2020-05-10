@@ -1,5 +1,9 @@
 import React from "react";
-import Nav from "./Nav.js";
+
+//images
+import customAquarium from "../assets/img/Living_Room.jpg";
+import maintenance from "../assets/img/IMG_4568.jpg";
+import liveCoral from "../assets/img/IMG_4600.jpg";
 
 import {
   Button,
@@ -14,9 +18,6 @@ import {
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-  },
   media: {
     height: 140,
   },
@@ -27,7 +28,6 @@ const Home = () => {
 
   return (
     <div>
-      <Nav />
       <header className="header">
         <h1>Ocean Vibes Aquarium</h1>
         <div className="contactBtn">
@@ -63,14 +63,14 @@ const Home = () => {
             <br />
             We work within your budget!
           </p>
-          <h2>Services:</h2>
+          <h2 className="services">Services</h2>
           <div className="cards">
-            <Card className={classes.root}>
+            <Card className="card-shadow">
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="/static/images/cards/contemplative-reptile.jpg"
-                  title="Contemplative Reptile"
+                  image={customAquarium}
+                  title="Custom Aquarium"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -90,12 +90,12 @@ const Home = () => {
               </CardActionArea>
               <CardActions></CardActions>
             </Card>
-            <Card className={classes.root}>
+            <Card className="card-shadow">
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="/static/images/cards/contemplative-reptile.jpg"
-                  title="Contemplative Reptile"
+                  image={maintenance}
+                  title="Aquarium Maintenance"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -113,12 +113,12 @@ const Home = () => {
               </CardActionArea>
               <CardActions></CardActions>
             </Card>
-            <Card className={classes.root}>
+            <Card className="card-shadow">
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
-                  image="/static/images/cards/contemplative-reptile.jpg"
-                  title="Contemplative Reptile"
+                  image={liveCoral}
+                  title="Live Coral"
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -129,9 +129,8 @@ const Home = () => {
                     color="textSecondary"
                     component="p"
                   >
-                    Lizards are a widespread group of squamate reptiles, with
-                    over 6,000 species, ranging across all continents except
-                    Antarctica
+                    We have the best live coral avaiable to plant in your home
+                    or office tank.
                   </Typography>
                 </CardContent>
               </CardActionArea>
