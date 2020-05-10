@@ -22,6 +22,9 @@ li a {
 li a:hover {
   color: #02385e;
 }
+.home-container {
+  margin-bottom: 3.5rem;
+}
 .header {
   background: url("../assets/layout-img/underwater.jpg");
   background-repeat: no-repeat;
@@ -36,6 +39,7 @@ li a:hover {
   margin: 0;
   padding-top: 5rem;
   color: #99daff;
+  text-decoration: none;
   text-shadow: 2px 2px black;
 }
 .header .contactBtn {
@@ -157,6 +161,42 @@ h1 {
 span {
   font-weight: bold;
   font-size: 1.2rem;
+}
+.footer-container {
+  text-align: center;
+}
+.footer-contact {
+  background-color: #02385e;
+  color: white;
+  padding: 3.5rem;
+}
+.footer-contact p {
+  margin: 0 8rem;
+  font-size: 1.2rem;
+}
+.footer-contact p a {
+  color: white;
+  text-decoration: none;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.footer-nav img {
+  margin-top: 0.5rem;
+  width: 20%;
+}
+.footer-nav div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.footerLinks {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
 }
 @font-face {
   font-family: 'Montserrat';

@@ -27,7 +27,7 @@ const Home = () => {
   const classes = useStyles();
 
   return (
-    <div>
+    <div className="home-container">
       <header className="header">
         <h1>Ocean Vibes Aquarium</h1>
         <div className="contactBtn">
