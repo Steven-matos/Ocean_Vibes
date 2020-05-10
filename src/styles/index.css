@@ -105,11 +105,16 @@ h1 {
 @media screen and (max-width: 800px) {
   h1 {
     text-align: center;
-    margin: 0;
+    margin: 1rem 0 0 0;
   }
 }
 .services-container {
   padding: 2.6rem;
+}
+@media screen and (max-width: 500px) {
+  .services-container {
+    padding: 0.5rem;
+  }
 }
 .service-content {
   display: flex;
@@ -153,7 +158,7 @@ h1 {
 }
 @media screen and (max-width: 500px) {
   .corner-img {
-    width: 80%;
+    width: 50%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -176,7 +181,7 @@ h1 {
 }
 @media screen and (max-width: 500px) {
   .service-btn {
-    margin-left: 1rem;
+    margin-left: 0rem;
   }
 }
 .service-btn a {
