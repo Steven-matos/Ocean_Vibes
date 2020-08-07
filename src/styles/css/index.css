@@ -27,7 +27,7 @@ li a:hover {
   margin-bottom: 3.5rem;
 }
 .header {
-  background: url("../assets/layout-img/new_header.jpg");
+  background: url("../../assets/layout-img/new_header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 45%;
@@ -89,7 +89,7 @@ h2 {
   }
 }
 .service-header {
-  background: url("../assets/layout-img/watertank.jpg");
+  background: url("../../assets/layout-img/watertank.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 45%;
@@ -196,7 +196,7 @@ h1 {
   }
 }
 .contact-header {
-  background: url("../assets/layout-img/blue_fish.jpg");
+  background: url("../../assets/layout-img/blue_fish.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 58%;
@@ -300,8 +300,8 @@ span {
 }
 @media screen and (max-width: 500px) {
   .footer-nav img {
-    width: 40%;
-    height: 25vh;
+    width: 75%;
+    height: 42vh;
     margin: 0 auto;
   }
 }
@@ -323,13 +323,11 @@ span {
 }
 @media screen and (max-width: 500px) {
   .footerLinks {
-    padding: 0;
+    border-bottom: 1px solid grey;
+    padding: 0 1rem 1.5rem 1rem;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    flex-direction: column;
     justify-content: space-around;
-  }
-}
-@media screen and (max-width: 500px) {
-  .footerLinks li {
-    padding: 1.2rem 0 0 2.5rem;
   }
 }
 @font-face {
@@ -351,7 +349,7 @@ span {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v7/L0x5DF4xlVMF-BfR8bXMIjhLq3o.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/robotomono/v12/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW9.ttf) format('truetype');
 }
 body {
   font-family: "Roboto", sans-serif;

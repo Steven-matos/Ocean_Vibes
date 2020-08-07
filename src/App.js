@@ -5,10 +5,10 @@ import Footer from "./component/Footer.js";
 import ScrollToTop from "./component/ScrollToTop.js";
 
 //Normalized CSS
-import "./styles/normalize.css";
+import "./styles/css/normalize.css";
 
 //Main Styles
-import "./styles/index.css";
+import "./styles/css/index.css";
 
 // components
 import Home from "./component/Home.js";
