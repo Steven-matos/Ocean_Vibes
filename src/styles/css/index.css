@@ -2,37 +2,30 @@
   display: flex;
   justify-content: space-between;
 }
-
 .navLinks {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
 }
-
 .logo {
   padding: 0.5rem 1.6rem;
 }
-
 li {
   padding: 1.2rem 2rem 0 2rem;
   list-style: none;
 }
-
 li a {
   color: black;
   text-decoration: none;
   font-size: 1rem;
 }
-
 li a:hover {
   color: #02385e;
   text-decoration: underline;
 }
-
 .home-container {
   margin-bottom: 3.5rem;
 }
-
 .header {
   background: url("../../assets/layout-img/new_header.jpg");
   background-repeat: no-repeat;
@@ -41,7 +34,6 @@ li a:hover {
   background-position-x: 20%;
   padding: 5rem;
 }
-
 .header h1 {
   letter-spacing: 2px;
   font-size: 3rem;
@@ -52,60 +44,50 @@ li a:hover {
   text-decoration: none;
   text-shadow: 2px 2px black;
 }
-
 @media screen and (max-width: 500px) {
   .header h1 {
     padding-top: 0rem;
   }
 }
-
 .header .contactBtn {
   padding: 2rem 0 3rem 0;
   text-align: center;
 }
-
 @media screen and (max-width: 500px) {
   .header .contactBtn {
     padding: 1rem 0;
   }
 }
-
 h2 {
   padding: 2rem;
   color: #02385e;
   font-size: 2rem;
   text-align: center;
 }
-
 .intro {
   text-align: center;
   font-size: 1.1rem;
 }
-
 .services {
   font-size: 2.3rem;
   text-decoration: underline;
 }
-
 .cards {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-
 .card-shadow {
   max-width: 345px;
   -webkit-box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
 }
-
 @media screen and (max-width: 500px) {
   .card-shadow {
     margin-bottom: 1.5rem;
   }
 }
-
 .service-header {
   background: url("../../assets/layout-img/watertank.jpg");
   background-repeat: no-repeat;
@@ -114,7 +96,6 @@ h2 {
   height: 100%;
   padding: 6.2rem;
 }
-
 h1 {
   letter-spacing: 2px;
   font-size: 3rem;
@@ -122,63 +103,52 @@ h1 {
   color: #02385e;
   text-decoration: underline;
 }
-
 @media screen and (max-width: 820px) {
   h1 {
     text-align: center;
     margin: 1rem 0 0 0;
   }
 }
-
 .services-container {
   padding: 2.6rem;
 }
-
 @media screen and (max-width: 500px) {
   .services-container {
     padding: 0.5rem;
   }
 }
-
 .service-content {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
 }
-
 @media screen and (max-width: 820px) {
   .service-content {
     flex-wrap: wrap;
   }
 }
-
 .content-container {
   padding: 2.54rem;
 }
-
 @media screen and (max-width: 820px) {
   .content-container {
     padding: 0;
     margin: 1.5rem;
   }
 }
-
 .content-container p {
   font-size: 1.2rem;
 }
-
 @media screen and (max-width: 820px) {
   .content-container p {
     text-align: center;
   }
 }
-
 @media screen and (max-width: 500px) {
   .content-container {
     padding: 0;
   }
 }
-
 .corner-img {
   width: 30%;
   margin: 1.5rem;
@@ -187,53 +157,44 @@ h1 {
   -moz-box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
 }
-
 @media screen and (max-width: 820px) {
   .corner-img {
     width: 75%;
     height: 130vh;
   }
 }
-
 @media screen and (max-width: 500px) {
   .corner-img {
     width: 75%;
     height: 67vh;
   }
 }
-
 .service-list li {
   list-style: disc;
 }
-
 @media screen and (max-width: 820px) {
   h3 {
     text-align: center;
   }
 }
-
 @media screen and (max-width: 820px) {
   .service-btn {
     margin-left: 7.7rem;
   }
 }
-
 @media screen and (max-width: 500px) {
   .service-btn {
     margin-left: 2rem;
   }
 }
-
 .service-btn a {
   margin: 0.5rem;
 }
-
 @media screen and (max-width: 500px) {
   .service-btn a {
     margin: 0.22rem;
   }
 }
-
 .contact-header {
   background: url("../../assets/layout-img/blue_fish.jpg");
   background-repeat: no-repeat;
@@ -242,23 +203,19 @@ h1 {
   height: 100%;
   padding: 6.2rem;
 }
-
 .contact-h1 {
   text-decoration: none;
   margin: 1rem 0 0 0;
 }
-
 .contact-container {
   display: flex;
   justify-content: space-evenly;
 }
-
 @media screen and (max-width: 820px) {
   .contact-container {
     flex-wrap: wrap-reverse;
   }
 }
-
 .contact-container img {
   margin: 5rem;
   border-radius: 5px;
@@ -266,7 +223,6 @@ h1 {
   -moz-box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 33px -9px rgba(0, 0, 0, 0.75);
 }
-
 @media screen and (max-width: 500px) {
   .contact-container img {
     margin: 0 0 2rem 0;
@@ -274,91 +230,74 @@ h1 {
     height: 84vh;
   }
 }
-
 .contact-content {
   margin: 2rem;
   padding: 1.5rem;
 }
-
 .contact-content h2 {
   padding: 0;
   text-align: left;
 }
-
 .contact-content p {
   font-size: 1.2rem;
 }
-
 .contact-content ul {
   padding: 0;
   margin: 0;
 }
-
 .contact-content ul li {
   font-size: 1.2rem;
 }
-
 .contact-content ul li a {
   font-size: 1.2rem;
 }
-
 span {
   font-weight: bold;
   font-size: 1.2rem;
 }
-
 .footer-container {
   text-align: center;
 }
-
 .footer-contact {
   background-color: #02385e;
   color: white;
   padding: 3.5rem;
 }
-
 .footer-contact p {
   margin: 0 8rem;
   font-size: 1.2rem;
 }
-
 @media screen and (max-width: 500px) {
   .footer-contact p {
     margin: 0 auto;
     font-size: 0.9rem;
   }
 }
-
 .footer-contact p a {
   color: white;
   text-decoration: none;
 }
-
 .footer-nav {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
 }
-
 @media screen and (max-width: 500px) {
   .footer-nav {
     flex-direction: column;
     margin: 0 auto;
   }
 }
-
 .footer-nav img {
   margin-top: 0.5rem;
   width: 20%;
 }
-
 @media screen and (max-width: 820px) {
   .footer-nav img {
     width: 34%;
-    height: 53vh;
+    height: 28vh;
   }
 }
-
 @media screen and (max-width: 500px) {
   .footer-nav img {
     width: 95%;
@@ -366,26 +305,28 @@ span {
     margin: 0 auto;
   }
 }
-
 .footer-nav div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 2rem 0 0 2rem;
 }
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 820px) {
   .footer-nav div {
-    margin: 0;
+    margin-top: 3rem;
   }
 }
-
 .footerLinks {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
 }
-
+@media screen and (max-width: 820px) {
+  .footerLinks {
+    flex-direction: column;
+    padding-inline-start: 0;
+  }
+}
 @media screen and (max-width: 500px) {
   .footerLinks {
     border-bottom: 1px solid grey;
@@ -395,7 +336,6 @@ span {
     justify-content: space-around;
   }
 }
-
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -403,7 +343,6 @@ span {
   font-display: swap;
   src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
 }
-
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -411,7 +350,6 @@ span {
   font-display: swap;
   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
-
 @font-face {
   font-family: 'Roboto Mono';
   font-style: normal;
@@ -419,7 +357,6 @@ span {
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/robotomono/v12/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW9.ttf) format('truetype');
 }
-
 body {
   font-family: "Roboto", sans-serif;
 }
